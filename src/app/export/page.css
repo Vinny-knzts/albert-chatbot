@@ -1,0 +1,22 @@
+.box-historicList {
+  display: flex;
+  flex-direction: column;
+}
+
+.historicList {
+  display: flex;
+  padding: 5px 3%;
+  border-bottom: solid 1px lightgray;
+  justify-content: space-between;
+}
+
+.historicList p {
+  width: 300px;
+}
+
+.exportCSV-btn {
+  margin-left: 10px;
+  font-size: medium;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
